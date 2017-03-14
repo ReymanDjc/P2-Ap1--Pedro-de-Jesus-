@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ParcialTech.Properties {
+namespace Entidades.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
@@ -26,8 +26,9 @@ namespace ParcialTech.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\DataBase\\Parc" +
-            "ialDb.mdf;Integrated Security=True;Connect Timeout=30")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"C:\\Users\\ReymanDJC\\Desktop\\1" +
+            " - 2017\\Programacion Aplicada I\\Proyectos de Aplicada I\\P2-Ap1-[Pedro De Jesus]\\" +
+            "ParcialTech\\DataBase\\ParcialDb.mdf\";Integrated Security=True;Connect Timeout=30")]
         public string ConStr {
             get {
                 return ((string)(this["ConStr"]));
